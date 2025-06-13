@@ -1,5 +1,6 @@
 /* classify if the system has a solution */
 /* for cases where m = n div 2 */
+
 function Pows2l(el);
 	return [el^(2^i): i in [0..n-1]];
 end function;
