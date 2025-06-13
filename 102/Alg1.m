@@ -1,13 +1,3 @@
-//n := 10;
-//m := 2;
-//p := 2;
-
-//load "~/template";
-
-//load "lin_perm";
-
-//Fm := [x : x in FF | x in GF(2^m)];
-
 function findLinear(lin_funcs)
     linearClasses := [];
     FieldF := {x : x in FF | x ne 0};
